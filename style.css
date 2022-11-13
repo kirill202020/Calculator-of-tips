@@ -136,4 +136,22 @@ body {
 
 .tip__radio {
   display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 70%;
+  }
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .app__left, .app__right {
+    flex-basis: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
